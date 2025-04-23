@@ -55,7 +55,7 @@
             zlsVersion =
               if (builtins.hasAttr version versionMap)
               then versionMap.${version}.version
-              else throw "";
+              else throw "zls is not available for this zig ${version}";
           in
             zlsPackages.${"zls-" + zlsVersion};
         };
