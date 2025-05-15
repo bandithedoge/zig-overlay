@@ -148,8 +148,8 @@
   zlsPackages = let
     sources = lib.importJSON ./zls-sources.json;
     zigSystem =
-      if lib.hasSuffix system "darwin"
-      then (lib.removeSuffix "darwin") + "macos"
+      if lib.hasSuffix "darwin" system
+      then (lib.removeSuffix "darwin" system) + "macos"
       else system;
   in
     lib.mapAttrs' (n: v:
