@@ -77,7 +77,7 @@
     (lib.attrsets.filterAttrs
       (k: v:
         (builtins.hasAttr system v)
-        && (v.${system}.url != null)
+        && (builtins.hasAttr "url" v.${system} || builtins.hasAttr "file" v.${system})
         && (v.${system}.sha256 != null)
         && !(lib.strings.hasSuffix "mach" k))
       (builtins.removeAttrs sources ["master" "mach-latest"]));
