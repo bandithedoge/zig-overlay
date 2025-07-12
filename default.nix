@@ -8,7 +8,16 @@
   urlsForFile = file: let
     # This is a list of known Zig nightly mirrors used by https://github.com/mlugg/setup-zig.
     # File hashes are exactly the same so `fetchurl` can try them in order.
-    mirrors = lib.importJSON ./mirrors.json;
+    mirrors = builtins.filter (item: builtins.isString item && builtins.stringLength item > 0) (
+        builtins.split "\n" (
+          builtins.readFile (
+            builtins.fetchurl {
+              # An official list of community mirrors:
+              url = "https://ziglang.org/download/community-mirrors.txt";
+            }
+          )
+        )
+      );
   in
     [("https://ziglang.org/builds/" + file)]
     ++ map (mirror: (builtins.elemAt mirror 0) + "/" + file) mirrors;
