@@ -14,13 +14,14 @@
             builtins.fetchurl {
               # An official list of community mirrors:
               url = "https://ziglang.org/download/community-mirrors.txt";
+              sha256 = "sha256-yYeWEVzJHlE2ZUZ/sX5CbdnrPZq4YD3OSSnIHdKqvOY=";
             }
           )
         )
       );
   in
     [("https://ziglang.org/builds/" + file)]
-    ++ map (mirror: (builtins.elemAt mirror 0) + "/" + file) mirrors;
+    ++ map (mirror: mirror + "/" + file) mirrors;
 
   # mkBinaryInstall makes a derivation that installs Zig from a binary.
   mkBinaryInstall = {
