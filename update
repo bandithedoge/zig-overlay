@@ -41,7 +41,7 @@ cp zls-versions.json zls-versions.old.json
 echo "{}" > zls-versions.new.json
 
 for version in $(jq '([.[].[].version], [.master.[].[].version] | unique | map(select(. != null))) - ($old.[0] | keys) | .[]' -r --slurpfile old zls-versions.json <sources.json); do
-  echo $version
+  echo "fetching zls for $version"
   curl -s -G \
     --data-urlencode "zig_version=$version" \
     --data-urlencode "compatibility=only-runtime" \
