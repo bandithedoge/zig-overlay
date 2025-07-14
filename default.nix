@@ -10,13 +10,7 @@
     # File hashes are exactly the same so `fetchurl` can try them in order.
     mirrors = builtins.filter (item: builtins.isString item && builtins.stringLength item > 0) (
         builtins.split "\n" (
-          builtins.readFile (
-            builtins.fetchurl {
-              # An official list of community mirrors:
-              url = "https://ziglang.org/download/community-mirrors.txt";
-              sha256 = "sha256-yYeWEVzJHlE2ZUZ/sX5CbdnrPZq4YD3OSSnIHdKqvOY=";
-            }
-          )
+          builtins.readFile ./mirrors.txt
         )
       );
   in
