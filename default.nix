@@ -1,6 +1,6 @@
 {
   pkgs ? import <nixpkgs> {},
-  system ? builtins.currentSystem,
+  system ? pkgs.system,
 }: let
   inherit (pkgs) lib;
   sources = lib.importJSON ./sources.json;
@@ -9,10 +9,10 @@
     # This is a list of known Zig nightly mirrors used by https://github.com/mlugg/setup-zig.
     # File hashes are exactly the same so `fetchurl` can try them in order.
     mirrors = builtins.filter (item: builtins.isString item && builtins.stringLength item > 0) (
-        builtins.split "\n" (
-          builtins.readFile ./mirrors.txt
-        )
-      );
+      builtins.split "\n" (
+        builtins.readFile ./mirrors.txt
+      )
+    );
   in
     [("https://ziglang.org/builds/" + file)]
     ++ map (mirror: mirror + "/" + file) mirrors;
