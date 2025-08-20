@@ -5,66 +5,69 @@
     nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
   };
 
-  outputs = {
-    self,
-    nixpkgs,
-    flake-utils,
-    ...
-  }: let
-    forAllSystems = fn:
-      nixpkgs.lib.genAttrs [
-        "x86_64-linux"
-        "aarch64-linux"
-        "x86_64-darwin"
-        "aarch64-darwin"
-      ] (system: fn nixpkgs.legacyPackages.${system});
-  in {
-    # The packages exported by the Flake:
-    #  - default - latest /released/ version
-    #  - <version> - tagged version
-    #  - master - latest nightly (updated daily)
-    #  - master-<date> - nightly by date
-    packages = forAllSystems (pkgs: import ./default.nix {inherit pkgs;});
+  outputs =
+    {
+      self,
+      nixpkgs,
+      flake-utils,
+      ...
+    }:
+    let
+      forAllSystems =
+        fn:
+        nixpkgs.lib.genAttrs [
+          "x86_64-linux"
+          "aarch64-linux"
+          "x86_64-darwin"
+          "aarch64-darwin"
+        ] (system: fn nixpkgs.legacyPackages.${system});
+    in
+    {
+      # The packages exported by the Flake:
+      #  - default - latest /released/ version
+      #  - <version> - tagged version
+      #  - master - latest nightly (updated daily)
+      #  - master-<date> - nightly by date
+      packages = forAllSystems (pkgs: import ./default.nix { inherit pkgs; });
 
-    # "Apps" so that `nix run` works. If you run `nix run .` then
-    # this will use the latest default.
-    apps = forAllSystems (
-      pkgs:
+      # "Apps" so that `nix run` works. If you run `nix run .` then
+      # this will use the latest default.
+      apps = forAllSystems (
+        pkgs:
         builtins.mapAttrs (_: pkg: {
           type = "app";
           program = pkg + "/bin/zig";
-        })
-        self.packages.${pkgs.system}
-    );
+        }) self.packages.${pkgs.system}
+      );
 
-    # nix fmt
-    formatter = forAllSystems (pkgs: pkgs.alejandra);
+      # nix fmt
+      formatter = forAllSystems (pkgs: pkgs.nixfmt);
 
-    devShells = forAllSystems (pkgs: {
-      default = pkgs.mkShell {
-        nativeBuildInputs = with pkgs; [
-          curl
-          jq
-          minisign
-        ];
+      devShells = forAllSystems (pkgs: {
+        default = pkgs.mkShell {
+          nativeBuildInputs = with pkgs; [
+            curl
+            jq
+            minisign
+          ];
+        };
+      });
+
+      # Overlay that can be imported so you can access the packages
+      # using zigpkgs.master or whatever you'd like.
+      overlays.default = final: prev: {
+        zigpkgs = self.packages.${prev.system};
       };
-    });
 
-    # Overlay that can be imported so you can access the packages
-    # using zigpkgs.master or whatever you'd like.
-    overlays.default = final: prev: {
-      zigpkgs = self.packages.${prev.system};
-    };
+      # Templates for use with nix flake init
+      templates.compiler-dev = {
+        path = ./templates/compiler-dev;
+        description = "A development environment for Zig compiler development.";
+      };
 
-    # Templates for use with nix flake init
-    templates.compiler-dev = {
-      path = ./templates/compiler-dev;
-      description = "A development environment for Zig compiler development.";
+      templates.init = {
+        path = ./templates/init;
+        description = "A basic, empty development environment.";
+      };
     };
-
-    templates.init = {
-      path = ./templates/init;
-      description = "A basic, empty development environment.";
-    };
-  };
 }
