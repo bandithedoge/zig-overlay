@@ -14,8 +14,9 @@ VERSION=$(jq -r '.master.version' <zig-index.json)
 echo "Parsing master version: ${VERSION}"
 
 # Verify the signature of the JSON before we parse it
-curl -s "https://ziglang.org/builds/zig-${VERSION}-index.json.minisig" >zig-index.json.minisig
-minisign -V -P ${PUBLIC_KEY} -x zig-index.json.minisig -m zig-index.json
+# XXX: uncomment when zig's index is signed properly again
+# curl -s "https://ziglang.org/builds/zig-${VERSION}-index.json.minisig" >zig-index.json.minisig
+# minisign -V -P ${PUBLIC_KEY} -x zig-index.json.minisig -m zig-index.json
 
 # Merge Mach's index.json with the official one
 curl -s 'https://machengine.org/zig/index.json' >mach-index.json
