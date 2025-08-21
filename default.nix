@@ -60,7 +60,7 @@ let
           let
             versionMap = lib.importJSON ./zls-versions.json;
             zlsVersion =
-              if (builtins.hasAttr version versionMap) then
+              if (versionMap ? version) then
                 versionMap.${version}.version
               else
                 throw "zls is not available for this zig ${version}";
