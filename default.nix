@@ -54,19 +54,31 @@ let
         cp zig $out/bin/zig
       '';
 
-      passthru = {
-        hook = pkgs.zig.hook.override { zig = finalAttrs.finalPackage; };
-        zls =
-          let
-            versionMap = lib.importJSON ./zls-versions.json;
-            zlsVersion =
-              if (versionMap ? version) then
-                versionMap.${version}.version
-              else
-                throw "zls is not available for this zig ${version}";
-          in
-          zlsPackages.${"zls-" + zlsVersion};
-      };
+      passthru =
+        (import "${pkgs.path}/pkgs/development/compilers/zig/passthru.nix" {
+          inherit lib;
+          inherit (pkgs)
+            stdenv
+            callPackage
+            wrapCCWith
+            wrapBintoolsWith
+            overrideCC
+            targetPackages
+            ;
+          zig = finalAttrs.finalPackage;
+        })
+        // {
+          zls =
+            let
+              versionMap = lib.importJSON ./zls-versions.json;
+              zlsVersion =
+                if (versionMap ? version) then
+                  versionMap.${version}.version
+                else
+                  throw "zls is not available for this zig ${version}";
+            in
+            zlsPackages.${"zls-" + zlsVersion};
+        };
 
       meta = with lib; {
         description = "General-purpose programming language and toolchain for maintaining robust, optimal, and reusable software";
