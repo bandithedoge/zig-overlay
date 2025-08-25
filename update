@@ -41,7 +41,7 @@ jq -s '.[0] * .[1]' sources.old.json sources.new.json >sources.json
 cp zls-versions.json zls-versions.old.json
 cp zls-versions.json zls-versions.new.json
 
-for version in $(jq '([.[].[].version], [.master.[].[].version] | unique | map(select(. != null))) - ($old.[0] | keys) | .[]' -r --slurpfile old zls-versions.json <sources.json); do
+for version in $(jq '[.[].[].version] | map(select(. != null)) | .[]' -r <sources.json); do
   echo "fetching zls for $version"
   curl -s -G \
     --data-urlencode "zig_version=$version" \
