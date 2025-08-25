@@ -72,7 +72,7 @@ let
             let
               versionMap = lib.importJSON ./zls-versions.json;
               zlsVersion =
-                if (versionMap ? version) then
+                if versionMap ? ${version} && versionMap.${version} ? version then
                   versionMap.${version}.version
                 else
                   throw "zls is not available for this zig ${version}";
