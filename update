@@ -38,8 +38,8 @@ cp sources.json sources.old.json
 # Recursive merge
 jq -s '.[0] * .[1]' sources.old.json sources.new.json >sources.json
 
-cp zls-versions.json zls-versions.old.json
-cp zls-versions.json zls-versions.new.json
+echo '{}' > zls-versions.old.json
+echo '{}' > zls-versions.new.json
 
 for version in $(jq '[.[].[].version] | map(select(. != null)) | .[]' -r <sources.json); do
   echo "fetching zls for $version"
