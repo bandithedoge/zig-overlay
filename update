@@ -41,7 +41,7 @@ jq -s '.[0] * .[1]' sources.old.json sources.new.json >sources.json
 echo '{}' > zls-versions.old.json
 echo '{}' > zls-versions.new.json
 
-for version in $(jq '[.[].[].version] | map(select(. != null)) | .[]' -r <sources.json); do
+for version in $(jq '[.[].[] | (."x86_64-linux".version) + .version] | .[]' -r <sources.json); do
   echo "fetching zls for $version"
   curl -s -G \
     --data-urlencode "zig_version=$version" \
