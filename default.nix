@@ -32,7 +32,7 @@ let
       inherit version;
 
       src = pkgs.fetchurl {
-        inherit sha256;
+        sha256 = if (sha256 == null) then "" else sha256;
         urls = urlsForFile (
           if file != null then
             file
