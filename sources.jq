@@ -15,12 +15,15 @@ def toentry(vsn; x):
         "version": $version,
       }
     }
-  )] | add | first(values, {});
+  )] | add;
 
-reduce to_entries[] as $entry ({}; . * (
+reduce to_entries[] as $entry ({}; . + (
   $entry | {
     (.key): (
         toentry(.value.version // .key; .value)
     )
   }
 ))
++ {
+  "master": { (.master.date): ( {"key": .master.version, "value": .master} | toentry(.key; .))}
+} | with_entries (select(.value != null))
