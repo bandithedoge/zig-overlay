@@ -1,4 +1,15 @@
-["aarch64-linux", "x86_64-linux", "aarch64-macos", "x86_64-macos", "aarch64-windows", "x86_64-windows"] as $targets |
+[
+  "aarch64-linux",
+  "armv7a-linux",
+  "loongarch64-linux",
+  "powerpc64le-linux",
+  "riscv64-linux",
+  "s390x-linux",
+  "x86_64-linux",
+
+  "aarch64-macos",
+  "x86_64-macos"
+] as $targets |
 
 def todarwin(x): x | gsub("macos"; "darwin");
 
