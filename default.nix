@@ -120,7 +120,8 @@ let
       (
         lib.attrsets.filterAttrs (
           k: v:
-          (builtins.hasAttr system v) && (builtins.hasAttr "url" v.${system}) && (v.${system}.url != null)
+          (builtins.hasAttr system v)
+          && (builtins.hasAttr "url" v.${system} || builtins.hasAttr "file" v.${system})
         ) sources.master
       );
 
@@ -135,6 +136,11 @@ let
   # This determines the latest /released/ version.
   latest = lib.lists.last (
     builtins.sort (x: y: (builtins.compareVersions x y) < 0) (builtins.attrNames taggedPackages)
+  );
+
+  # Latest master version
+  masterLatest = lib.lists.last (
+    builtins.sort (x: y: (builtins.compareVersions x y) < 0) (builtins.attrNames masterPackages)
   );
 
   # Latest Mach nominated version
@@ -199,6 +205,7 @@ lib.mapAttrs' (k: v: lib.nameValuePair (lib.replaceStrings [ "." "+" ] [ "_" "_"
   // zlsPackages
   // {
     "default" = taggedPackages.${latest};
+    master = masterPackages.${masterLatest};
     mach-latest = machPackages.${machLatest};
     zls-latest = zlsPackages.${zlsLatest};
     zls-master = zlsPackages.${zlsMaster};
