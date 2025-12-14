@@ -36866,6 +36866,53 @@
       "file": "zig-aarch64-windows-0.16.0-dev.1484+d0ba6642b.zip",
       "sha256": "62beade8036e74f10009c133ae81454df690506c447c215baf891d828f38761e",
       "version": "0.16.0-dev.1484+d0ba6642b"
+    },
+    "2025-11-26": {
+      "x86_64-darwin": {
+        "file": "zig-x86_64-macos-0.16.0-dev.1484+d0ba6642b.tar.xz",
+        "sha256": "7055d0af0dd99af4e845a016e25fdd3be26c0e2c331b98902d2510c737e8b50e",
+        "version": "0.16.0-dev.1484+d0ba6642b"
+      },
+      "aarch64-darwin": {
+        "file": "zig-aarch64-macos-0.16.0-dev.1484+d0ba6642b.tar.xz",
+        "sha256": "b521ed99eecad23575de1c138d9efc2fa4e3c3b9afd454af66c91707e3c89d32",
+        "version": "0.16.0-dev.1484+d0ba6642b"
+      },
+      "x86_64-linux": {
+        "file": "zig-x86_64-linux-0.16.0-dev.1484+d0ba6642b.tar.xz",
+        "sha256": "3f90582cde6e4ea4a9b9b1dd283a6720131dfefbece1c85be2f4c82ab74a2e7b",
+        "version": "0.16.0-dev.1484+d0ba6642b"
+      },
+      "aarch64-linux": {
+        "file": "zig-aarch64-linux-0.16.0-dev.1484+d0ba6642b.tar.xz",
+        "sha256": "f8240e9708376f3e808c59dbaf69a2839eb1a14507432ee9f7d6817482346bf9",
+        "version": "0.16.0-dev.1484+d0ba6642b"
+      },
+      "armv7a-linux": {
+        "file": "zig-linux-armv7a-0.14.0-dev.2577+271452d22.tar.xz",
+        "sha256": "ce4a447027be85577f7a739a09345931572dd69f9dc68d5b53d1cf667bfaf664",
+        "version": "0.16.0-dev.1484+d0ba6642b"
+      },
+      "riscv64-linux": {
+        "file": "zig-riscv64-linux-0.16.0-dev.1484+d0ba6642b.tar.xz",
+        "sha256": "3dfc535a064d60443a61c0fc672860287e006db5667da3b345e614a4ca75a577",
+        "version": "0.16.0-dev.1484+d0ba6642b"
+      },
+      "powerpc64le-linux": {
+        "file": "zig-powerpc64le-linux-0.16.0-dev.1484+d0ba6642b.tar.xz",
+        "sha256": "e8fa27e9bfaffe74ec85dc07133658587d3ab6f84947640acb92b4b24c06b348",
+        "version": "0.16.0-dev.1484+d0ba6642b"
+      },
+      "loongarch64-linux": {
+        "file": "zig-loongarch64-linux-0.16.0-dev.1484+d0ba6642b.tar.xz",
+        "sha256": "d6a3829bd4c18603261e9b4a9e7ece7eb44ac3c9e784e0edacd8527a70e2f245",
+        "version": "0.16.0-dev.1484+d0ba6642b"
+      },
+      "s390x-linux": {
+        "file": "zig-s390x-linux-0.16.0-dev.1484+d0ba6642b.tar.xz",
+        "sha256": "bb1e5bba6d3b1e4d95bb9bf51042e3887b0aa1e55f39800eafbc49d1eece67bf",
+        "version": "0.16.0-dev.1484+d0ba6642b"
+      }
     }
   },
   "0.7.1": {
@@ -36897,6 +36944,16 @@
       "sha256": "4818a8a65b4672bc52c0ae7f14d014e0eb8caf10f12c0745176820384cea296a",
       "version": "0.7.1",
       "file": "zig-windows-x86_64-0.7.1.zip"
+    },
+    "armv7a-linux": {
+      "file": "zig-linux-armv7a-0.7.1.tar.xz",
+      "sha256": "5a0662e07b4c4968665e1f97558f8591f6facec45d2e0ff5715e661743107ceb",
+      "version": "0.7.1"
+    },
+    "riscv64-linux": {
+      "file": "zig-linux-riscv64-0.7.1.tar.xz",
+      "sha256": "187294bfd35983348c3fe042901b42e67e7e36ab7f77a5f969d21c0051f4d21f",
+      "version": "0.7.1"
     }
   },
   "0.7.0": {
@@ -36929,6 +36986,16 @@
       "sha256": "965f56c0a36f9cda2125e3a348bc654f7f155e2804c3667d231775ec228f8553",
       "version": "0.7.0",
       "file": "zig-windows-x86_64-0.7.0.zip"
+    },
+    "armv7a-linux": {
+      "file": "zig-linux-armv7a-0.7.0.tar.xz",
+      "sha256": "011c267e25a96ee160505a560c441daa045359a9d50e13ab1bada9d75c95db2d",
+      "version": "0.7.0"
+    },
+    "riscv64-linux": {
+      "file": "zig-linux-riscv64-0.7.0.tar.xz",
+      "sha256": "40dff81faa6f232ac40abbf88b9371f3cc932b6e09c423b94387c9ea580cb7be",
+      "version": "0.7.0"
     }
   },
   "0.6.0": {
@@ -36960,6 +37027,16 @@
       "sha256": "c3b897832523e1026e10b2d8d55d7f895185c0a27a63681f3a23219c3f1c38f4",
       "version": "0.6.0",
       "file": "zig-windows-x86_64-0.6.0.zip"
+    },
+    "armv7a-linux": {
+      "file": "zig-linux-armv7a-0.6.0.tar.xz",
+      "sha256": "946969abe357def95ca9cbbfcebfcf2d90cf967bcd3f48ee87662e32d91d8f35",
+      "version": "0.6.0"
+    },
+    "riscv64-linux": {
+      "file": "zig-linux-riscv64-0.6.0.tar.xz",
+      "sha256": "68ddee43f7503c8ae5f26a921f3602c34719a02ed2241f528c0b8b888cc14b38",
+      "version": "0.6.0"
     }
   },
   "0.5.0": {
@@ -37149,6 +37226,16 @@
       "sha256": "8580fbbf3afb72e9b495c7f8aeac752a03475ae0bbcf5d787f3775c7e1f4f807",
       "version": "0.8.0",
       "file": "zig-windows-x86_64-0.8.0.zip"
+    },
+    "armv7a-linux": {
+      "file": "zig-linux-armv7a-0.8.0.tar.xz",
+      "sha256": "d00b8bd97b79f45d6f5da956983bafeaa082e6c2ae8c6e1c6d4faa22fa29b320",
+      "version": "0.8.0"
+    },
+    "riscv64-linux": {
+      "file": "zig-linux-riscv64-0.8.0.tar.xz",
+      "sha256": "75997527a78cdab64c40c43d9df39c01c4cdb557bb3992a869838371a204cfea",
+      "version": "0.8.0"
     }
   },
   "0.8.1": {
@@ -37181,6 +37268,16 @@
       "sha256": "43573db14cd238f7111d6bdf37492d363f11ecd1eba802567a172f277d003926",
       "version": "0.8.1",
       "file": "zig-windows-x86_64-0.8.1.zip"
+    },
+    "armv7a-linux": {
+      "file": "zig-linux-armv7a-0.8.1.tar.xz",
+      "sha256": "5ba58141805e2519f38cf8e715933cbf059f4f3dade92c71838cce341045de05",
+      "version": "0.8.1"
+    },
+    "riscv64-linux": {
+      "file": "zig-linux-riscv64-0.8.1.tar.xz",
+      "sha256": "4adfaf147b025917c03367462fe5018aaa9edbc6439ef9cd0da2b074ae960554",
+      "version": "0.8.1"
     }
   },
   "0.9.0": {
@@ -37219,6 +37316,16 @@
       "sha256": "f9018725e3fb2e8992b17c67034726971156eb190685018a9ac8c3a9f7a22340",
       "version": "0.9.0",
       "file": "zig-windows-aarch64-0.9.0.zip"
+    },
+    "armv7a-linux": {
+      "file": "zig-linux-armv7a-0.9.0.tar.xz",
+      "sha256": "50225dee6e6448a63ee96383a34d9fe3bba34ae8da1a0c8619bde2cdfc1df87d",
+      "version": "0.9.0"
+    },
+    "riscv64-linux": {
+      "file": "zig-linux-riscv64-0.9.0.tar.xz",
+      "sha256": "85466de07504767ed37f59782672ad41bbdf43d6480fafd07f45543278b07620",
+      "version": "0.9.0"
     }
   },
   "0.9.1": {
@@ -37257,6 +37364,16 @@
       "sha256": "621bf95f54dc3ff71466c5faae67479419951d7489e40e87fd26d195825fb842",
       "version": "0.9.1",
       "file": "zig-windows-aarch64-0.9.1.zip"
+    },
+    "armv7a-linux": {
+      "file": "zig-linux-armv7a-0.9.1.tar.xz",
+      "sha256": "6de64456cb4757a555816611ea697f86fba7681d8da3e1863fa726a417de49be",
+      "version": "0.9.1"
+    },
+    "riscv64-linux": {
+      "file": "zig-linux-riscv64-0.9.1.tar.xz",
+      "sha256": "208dea53662c2c52777bd9e3076115d2126a4f71aed7f2ff3b8fe224dc3881aa",
+      "version": "0.9.1"
     }
   },
   "0.10.0": {
@@ -37295,6 +37412,16 @@
       "sha256": "1bbda8d123d44f3ae4fa90d0da04b1e9093c3f9ddae3429a4abece1e1c0bf19a",
       "version": "0.10.0",
       "file": "zig-windows-aarch64-0.10.0.zip"
+    },
+    "armv7a-linux": {
+      "file": "zig-linux-armv7a-0.10.0.tar.xz",
+      "sha256": "7201b2e89cd7cc2dde95d39485fd7d5641ba67dc6a9a58c036cb4c308d2e82de",
+      "version": "0.10.0"
+    },
+    "riscv64-linux": {
+      "file": "zig-linux-riscv64-0.10.0.tar.xz",
+      "sha256": "2a126f3401a7a7efc4b454f0a85c133db1af5a9dfee117f172213b7cbd47bfba",
+      "version": "0.10.0"
     }
   },
   "0.10.1": {
@@ -37333,6 +37460,11 @@
       "sha256": "ece93b0d77b2ab03c40db99ef7ccbc63e0b6bd658af12b97898960f621305428",
       "version": "0.10.1",
       "file": "zig-windows-aarch64-0.10.1.zip"
+    },
+    "riscv64-linux": {
+      "file": "zig-linux-riscv64-0.10.1.tar.xz",
+      "sha256": "9db5b59a5112b8beb995094ba800e88b0060e9cf7cfadf4dc3e666c9010dc77b",
+      "version": "0.10.1"
     }
   },
   "0.11.0": {
@@ -37371,6 +37503,21 @@
       "sha256": "5d4bd13db5ecb0ddc749231e00f125c1d31087d708e9ff9b45c4f4e13e48c661",
       "version": "0.11.0",
       "file": "zig-windows-aarch64-0.11.0.zip"
+    },
+    "armv7a-linux": {
+      "file": "zig-linux-armv7a-0.11.0.tar.xz",
+      "sha256": "aebe8bbeca39f13f9b7304465f9aee01ab005d243836bd40f4ec808093dccc9b",
+      "version": "0.11.0"
+    },
+    "riscv64-linux": {
+      "file": "zig-linux-riscv64-0.11.0.tar.xz",
+      "sha256": "24a478937eddb507e96d60bd4da00de9092b3f0920190eb45c4c99c946b00ed5",
+      "version": "0.11.0"
+    },
+    "powerpc64le-linux": {
+      "file": "zig-linux-powerpc64le-0.11.0.tar.xz",
+      "sha256": "75260e87325e820a278cf9e74f130c7b3d84c0b5197afb2e3c85eff3fcedd48d",
+      "version": "0.11.0"
     }
   },
   "0.12.0": {
@@ -37409,6 +37556,21 @@
       "sha256": "04c6b92689241ca7a8a59b5f12d2ca2820c09d5043c3c4808b7e93e41c7bf97b",
       "version": "0.12.0",
       "file": "zig-windows-aarch64-0.12.0.zip"
+    },
+    "armv7a-linux": {
+      "file": "zig-linux-armv7a-0.12.0.tar.xz",
+      "sha256": "b48221f4c64416d257f0f9f77d8727dccf7de92aeabe59744ee6e70d650a97bc",
+      "version": "0.12.0"
+    },
+    "riscv64-linux": {
+      "file": "zig-linux-riscv64-0.12.0.tar.xz",
+      "sha256": "bb2d1a78b01595a9c00ffd2e12ab46e32f8b6798f76aec643ff78e5b4f5c5afd",
+      "version": "0.12.0"
+    },
+    "powerpc64le-linux": {
+      "file": "zig-linux-powerpc64le-0.12.0.tar.xz",
+      "sha256": "9218beecfb9250e9eff863f58f987dca7077e3258dd263c40269086127f9679b",
+      "version": "0.12.0"
     }
   },
   "0.13.0": {
@@ -37447,6 +37609,21 @@
       "sha256": "95ff88427af7ba2b4f312f45d2377ce7a033e5e3c620c8caaa396a9aba20efda",
       "version": "0.13.0",
       "file": "zig-windows-aarch64-0.13.0.zip"
+    },
+    "armv7a-linux": {
+      "file": "zig-linux-armv7a-0.13.0.tar.xz",
+      "sha256": "4b0550239c2cd884cc03ddeb2b9934708f4b073ad59a96fccbfe09f7e4f54233",
+      "version": "0.13.0"
+    },
+    "riscv64-linux": {
+      "file": "zig-linux-riscv64-0.13.0.tar.xz",
+      "sha256": "9f7f3c685894ff80f43eaf3cad1598f4844ac46f4308374237c7f912f7907bb3",
+      "version": "0.13.0"
+    },
+    "powerpc64le-linux": {
+      "file": "zig-linux-powerpc64le-0.13.0.tar.xz",
+      "sha256": "6a467622448e830e8f85d20cabed151498af2b0a62f87b8c083b2fe127e60417",
+      "version": "0.13.0"
     }
   },
   "0.12.1": {
@@ -37485,6 +37662,21 @@
       "sha256": "e1286114a11be4695a6ad5cf0ba6a0e5f489bb3b029a5237de93598133f0c13a",
       "version": "0.12.1",
       "file": "zig-windows-aarch64-0.12.1.zip"
+    },
+    "armv7a-linux": {
+      "file": "zig-linux-armv7a-0.12.1.tar.xz",
+      "sha256": "27493c922fd1454137ed6cbe6b6bec00352838fcd32e6e74f4f9187011816157",
+      "version": "0.12.1"
+    },
+    "riscv64-linux": {
+      "file": "zig-linux-riscv64-0.12.1.tar.xz",
+      "sha256": "463511a863acc16911cff6801de97623e6de296aab7b15dcda5f6fd078b400b5",
+      "version": "0.12.1"
+    },
+    "powerpc64le-linux": {
+      "file": "zig-linux-powerpc64le-0.12.1.tar.xz",
+      "sha256": "462d6f10350f3c5d6fc4c9d6cfdede93d69d0103af026889a15f65c5de791d39",
+      "version": "0.12.1"
     }
   },
   "0.14.0": {
@@ -37523,6 +37715,26 @@
       "sha256": "03e984383ebb8f85293557cfa9f48ee8698e7c400239570c9ff1aef3bffaf046",
       "version": "0.14.0",
       "file": "zig-windows-aarch64-0.14.0.zip"
+    },
+    "armv7a-linux": {
+      "file": "zig-linux-armv7a-0.14.0.tar.xz",
+      "sha256": "a67dbfa9bdf769228ec994f2098698c619f930883ca5ef638f50eee2d7788d10",
+      "version": "0.14.0"
+    },
+    "riscv64-linux": {
+      "file": "zig-linux-riscv64-0.14.0.tar.xz",
+      "sha256": "a2b14d3de326d3fd095548ef38bf5a67b15dadd62fbcc90836d63cc4355f8ef7",
+      "version": "0.14.0"
+    },
+    "powerpc64le-linux": {
+      "file": "zig-linux-powerpc64le-0.14.0.tar.xz",
+      "sha256": "3eabd60876ebc2748de8eb57b4b8cfa78861ba9bf7c6dd83f4e3e1d271d7c45e",
+      "version": "0.14.0"
+    },
+    "loongarch64-linux": {
+      "file": "zig-linux-loongarch64-0.14.0.tar.xz",
+      "sha256": "31a2f07df55f8f528b92d540db9aae6c0b38643c34dc1ac33a0111d855e996ae",
+      "version": "0.14.0"
     }
   },
   "mach-latest": {
@@ -37631,6 +37843,26 @@
       "file": "zig-windows-aarch64-0.14.0-dev.2577+271452d22.zip",
       "sha256": "3563af9bf14a8e510c02c7858320db712348557b71a7d9844d8a960363207518",
       "version": "0.14.0-dev.2577+271452d22"
+    },
+    "armv7a-linux": {
+      "file": "zig-linux-armv7a-0.14.0-dev.2577+271452d22.tar.xz",
+      "sha256": "ce4a447027be85577f7a739a09345931572dd69f9dc68d5b53d1cf667bfaf664",
+      "version": "0.14.0-dev.2577+271452d22"
+    },
+    "riscv64-linux": {
+      "file": "zig-linux-riscv64-0.14.0-dev.2577+271452d22.tar.xz",
+      "sha256": "99ee8d18a6f9a513f203a2d8e0024edd8fee710b9ae267ba238bbb98cedbb754",
+      "version": "0.14.0-dev.2577+271452d22"
+    },
+    "powerpc64le-linux": {
+      "file": "zig-linux-powerpc64le-0.14.0-dev.2577+271452d22.tar.xz",
+      "sha256": "1404f4b51b861883145b4757f94c46e9656b0c6b9e00ccd7e8499df691a32974",
+      "version": "0.14.0-dev.2577+271452d22"
+    },
+    "loongarch64-linux": {
+      "file": "zig-linux-loongarch64-0.14.0-dev.2577+271452d22.tar.xz",
+      "sha256": "b70062294fb49e857f5bba0154c08966973080766af12e1b68dbfab743f0550d",
+      "version": "0.14.0-dev.2577+271452d22"
     }
   },
   "2024.11.0-mach": {
@@ -37669,6 +37901,26 @@
       "sha256": "3563af9bf14a8e510c02c7858320db712348557b71a7d9844d8a960363207518",
       "version": "0.14.0-dev.2577+271452d22",
       "file": "zig-windows-aarch64-0.14.0-dev.2577+271452d22.zip"
+    },
+    "armv7a-linux": {
+      "file": "zig-linux-armv7a-0.14.0-dev.2577+271452d22.tar.xz",
+      "sha256": "ce4a447027be85577f7a739a09345931572dd69f9dc68d5b53d1cf667bfaf664",
+      "version": "0.14.0-dev.2577+271452d22"
+    },
+    "riscv64-linux": {
+      "file": "zig-linux-riscv64-0.14.0-dev.2577+271452d22.tar.xz",
+      "sha256": "99ee8d18a6f9a513f203a2d8e0024edd8fee710b9ae267ba238bbb98cedbb754",
+      "version": "0.14.0-dev.2577+271452d22"
+    },
+    "powerpc64le-linux": {
+      "file": "zig-linux-powerpc64le-0.14.0-dev.2577+271452d22.tar.xz",
+      "sha256": "1404f4b51b861883145b4757f94c46e9656b0c6b9e00ccd7e8499df691a32974",
+      "version": "0.14.0-dev.2577+271452d22"
+    },
+    "loongarch64-linux": {
+      "file": "zig-linux-loongarch64-0.14.0-dev.2577+271452d22.tar.xz",
+      "sha256": "b70062294fb49e857f5bba0154c08966973080766af12e1b68dbfab743f0550d",
+      "version": "0.14.0-dev.2577+271452d22"
     }
   },
   "2024.10.0-mach": {
@@ -37707,6 +37959,26 @@
       "sha256": "9a600ae56d40782f174204f4715bf6f3eadf536146dc794bbbd9a662b2dae70b",
       "version": "0.14.0-dev.1911+3bf89f55c",
       "file": "zig-windows-aarch64-0.14.0-dev.1911+3bf89f55c.zip"
+    },
+    "armv7a-linux": {
+      "file": "zig-linux-armv7a-0.14.0-dev.1911+3bf89f55c.tar.xz",
+      "sha256": "ceacc87fd821a252fe15c34b4ab0539deea001b7f83837ff468126f743e1752c",
+      "version": "0.14.0-dev.1911+3bf89f55c"
+    },
+    "riscv64-linux": {
+      "file": "zig-linux-riscv64-0.14.0-dev.1911+3bf89f55c.tar.xz",
+      "sha256": "9cde06923f402ad564cbb6fcedf07d011fa810525cdb40a6bec8cbb3f4151be4",
+      "version": "0.14.0-dev.1911+3bf89f55c"
+    },
+    "powerpc64le-linux": {
+      "file": "zig-linux-powerpc64le-0.14.0-dev.1911+3bf89f55c.tar.xz",
+      "sha256": "7cb2d169d4849f556582751a62ca2f77e38c86a1798a805e3586e1062deafcd1",
+      "version": "0.14.0-dev.1911+3bf89f55c"
+    },
+    "loongarch64-linux": {
+      "file": "zig-linux-loongarch64-0.14.0-dev.1911+3bf89f55c.tar.xz",
+      "sha256": "e7fb9c63895d2ec536dc0f7bf16ca3d71e4daff8a5d9e7fb629fc4092015c295",
+      "version": "0.14.0-dev.1911+3bf89f55c"
     }
   },
   "0.4.0-mach": {
@@ -37745,6 +38017,21 @@
       "sha256": "d2b2d5a61258222467e0de8615675e2e66e184dc36c142adcf628246c97636a4",
       "version": "0.13.0-dev.351+64ef45eb0",
       "file": "zig-windows-aarch64-0.13.0-dev.351+64ef45eb0.zip"
+    },
+    "armv7a-linux": {
+      "file": "zig-linux-armv7a-0.13.0-dev.351+64ef45eb0.tar.xz",
+      "sha256": "4c1dac2c4fc37e355da42fcab12b77b27ff3fecf1d238d1e4049e8e513a7c539",
+      "version": "0.13.0-dev.351+64ef45eb0"
+    },
+    "riscv64-linux": {
+      "file": "zig-linux-riscv64-0.13.0-dev.351+64ef45eb0.tar.xz",
+      "sha256": "141e40bf24e783926b3d76510a1a87e8f875247d4fe877faf14f908fdd2ddeb9",
+      "version": "0.13.0-dev.351+64ef45eb0"
+    },
+    "powerpc64le-linux": {
+      "file": "zig-linux-powerpc64le-0.13.0-dev.351+64ef45eb0.tar.xz",
+      "sha256": "03839298a9c98aeb9b56e98d7c589909b6c279178dffe714fd9a3c325718ec98",
+      "version": "0.13.0-dev.351+64ef45eb0"
     }
   },
   "2024.5.0-mach": {
@@ -37783,6 +38070,21 @@
       "sha256": "d2b2d5a61258222467e0de8615675e2e66e184dc36c142adcf628246c97636a4",
       "version": "0.13.0-dev.351+64ef45eb0",
       "file": "zig-windows-aarch64-0.13.0-dev.351+64ef45eb0.zip"
+    },
+    "armv7a-linux": {
+      "file": "zig-linux-armv7a-0.13.0-dev.351+64ef45eb0.tar.xz",
+      "sha256": "4c1dac2c4fc37e355da42fcab12b77b27ff3fecf1d238d1e4049e8e513a7c539",
+      "version": "0.13.0-dev.351+64ef45eb0"
+    },
+    "riscv64-linux": {
+      "file": "zig-linux-riscv64-0.13.0-dev.351+64ef45eb0.tar.xz",
+      "sha256": "141e40bf24e783926b3d76510a1a87e8f875247d4fe877faf14f908fdd2ddeb9",
+      "version": "0.13.0-dev.351+64ef45eb0"
+    },
+    "powerpc64le-linux": {
+      "file": "zig-linux-powerpc64le-0.13.0-dev.351+64ef45eb0.tar.xz",
+      "sha256": "03839298a9c98aeb9b56e98d7c589909b6c279178dffe714fd9a3c325718ec98",
+      "version": "0.13.0-dev.351+64ef45eb0"
     }
   },
   "2024.3.0-mach": {
@@ -37821,6 +38123,21 @@
       "sha256": "e48fd79741afff7567394ca53a90d75c8a4b6d36c7c76e701ec172a303db4b5e",
       "version": "0.12.0-dev.3180+83e578a18",
       "file": "zig-windows-aarch64-0.12.0-dev.3180+83e578a18.zip"
+    },
+    "armv7a-linux": {
+      "file": "zig-linux-armv7a-0.12.0-dev.3180+83e578a18.tar.xz",
+      "sha256": "35ed38c07acb8f03729dde067662b05cbeee529b6d105ca11b204c25323e13c1",
+      "version": "0.12.0-dev.3180+83e578a18"
+    },
+    "riscv64-linux": {
+      "file": "zig-linux-riscv64-0.12.0-dev.3180+83e578a18.tar.xz",
+      "sha256": "1f81ed5e2d11a80d42cbc7b1b17b2b7f12b7a4cf14b439462fdc2eead3d0d199",
+      "version": "0.12.0-dev.3180+83e578a18"
+    },
+    "powerpc64le-linux": {
+      "file": "zig-linux-powerpc64le-0.12.0-dev.3180+83e578a18.tar.xz",
+      "sha256": "29fb7a64797c939cada9db5740d2efdb3225425ca258e8cbb331135c31460d4b",
+      "version": "0.12.0-dev.3180+83e578a18"
     }
   },
   "0.3.0-mach": {
@@ -37859,6 +38176,21 @@
       "sha256": "299d5455cbb4a2370a6675a79f32b01956ffbdda8d70bb78e8a1671940ecd971",
       "version": "0.12.0-dev.2063+804cee3b9",
       "file": "zig-windows-aarch64-0.12.0-dev.2063+804cee3b9.zip"
+    },
+    "armv7a-linux": {
+      "file": "zig-linux-armv7a-0.12.0-dev.2063+804cee3b9.tar.xz",
+      "sha256": "213673b0ba8b3e3c0323eb6a1fd33fe8dca9c7a66b5b0f3908dd0f41b365ddff",
+      "version": "0.12.0-dev.2063+804cee3b9"
+    },
+    "riscv64-linux": {
+      "file": "zig-linux-riscv64-0.12.0-dev.2063+804cee3b9.tar.xz",
+      "sha256": "8573478f89c3de971e6ed69eb6defee473ae7197aefeec3ed77bb04918789a6b",
+      "version": "0.12.0-dev.2063+804cee3b9"
+    },
+    "powerpc64le-linux": {
+      "file": "zig-linux-powerpc64le-0.12.0-dev.2063+804cee3b9.tar.xz",
+      "sha256": "8e12deafb740dab817e3c7b3cc7ab99192d7036bc759684f6fcdb28c85fb7f24",
+      "version": "0.12.0-dev.2063+804cee3b9"
     }
   },
   "2024.1.0-mach": {
@@ -37897,6 +38229,21 @@
       "sha256": "299d5455cbb4a2370a6675a79f32b01956ffbdda8d70bb78e8a1671940ecd971",
       "version": "0.12.0-dev.2063+804cee3b9",
       "file": "zig-windows-aarch64-0.12.0-dev.2063+804cee3b9.zip"
+    },
+    "armv7a-linux": {
+      "file": "zig-linux-armv7a-0.12.0-dev.2063+804cee3b9.tar.xz",
+      "sha256": "213673b0ba8b3e3c0323eb6a1fd33fe8dca9c7a66b5b0f3908dd0f41b365ddff",
+      "version": "0.12.0-dev.2063+804cee3b9"
+    },
+    "riscv64-linux": {
+      "file": "zig-linux-riscv64-0.12.0-dev.2063+804cee3b9.tar.xz",
+      "sha256": "8573478f89c3de971e6ed69eb6defee473ae7197aefeec3ed77bb04918789a6b",
+      "version": "0.12.0-dev.2063+804cee3b9"
+    },
+    "powerpc64le-linux": {
+      "file": "zig-linux-powerpc64le-0.12.0-dev.2063+804cee3b9.tar.xz",
+      "sha256": "8e12deafb740dab817e3c7b3cc7ab99192d7036bc759684f6fcdb28c85fb7f24",
+      "version": "0.12.0-dev.2063+804cee3b9"
     }
   },
   "0.14.1": {
@@ -37928,6 +38275,31 @@
     "aarch64-windows": {
       "file": "zig-aarch64-windows-0.14.1.zip",
       "sha256": "b5aac0ccc40dd91e8311b1f257717d8e3903b5fefb8f659de6d65a840ad1d0e7",
+      "version": "0.14.1"
+    },
+    "armv7a-linux": {
+      "file": "zig-armv7a-linux-0.14.1.tar.xz",
+      "sha256": "1b34d9ecfaeb3b360e86c0bc233e1a8a2bbed2d40f2d4f20c12bde2128714324",
+      "version": "0.14.1"
+    },
+    "riscv64-linux": {
+      "file": "zig-riscv64-linux-0.14.1.tar.xz",
+      "sha256": "005f214f74dbafb7b4d8bd305f4e9d25048f711d9ec6fa7b3d4fca177e11b882",
+      "version": "0.14.1"
+    },
+    "powerpc64le-linux": {
+      "file": "zig-powerpc64le-linux-0.14.1.tar.xz",
+      "sha256": "15523e748efd9224ae164482e5cc1f8c11b035246b9749fb5b00758484f384a1",
+      "version": "0.14.1"
+    },
+    "loongarch64-linux": {
+      "file": "zig-loongarch64-linux-0.14.1.tar.xz",
+      "sha256": "fdc344789be6becbe220bf5ad035156e653cc148f4da270188cbac87729f17e0",
+      "version": "0.14.1"
+    },
+    "s390x-linux": {
+      "file": "zig-s390x-linux-0.14.1.tar.xz",
+      "sha256": "8e1bb63532ba22725f0a4a45e5c2920a8af508d8ca81e6007c330eec2b7033a6",
       "version": "0.14.1"
     }
   },
@@ -37961,6 +38333,26 @@
       "file": "zig-aarch64-windows-0.15.1.zip",
       "sha256": "1f1bf16228b0ffcc882b713dc5e11a6db4219cb30997e13c72e8e723c2104ec6",
       "version": "0.15.1"
+    },
+    "riscv64-linux": {
+      "file": "zig-riscv64-linux-0.15.1.tar.xz",
+      "sha256": "7ca7a3e621436fb31d66a253132fc39574a13d2a1b4d8458af4f2e7c6e4374fe",
+      "version": "0.15.1"
+    },
+    "powerpc64le-linux": {
+      "file": "zig-powerpc64le-linux-0.15.1.tar.xz",
+      "sha256": "339e2106496be70b614e32d444298216e676c36d08f5cd7bee3dd1dbd4567fd7",
+      "version": "0.15.1"
+    },
+    "loongarch64-linux": {
+      "file": "zig-loongarch64-linux-0.15.1.tar.xz",
+      "sha256": "0af18a012f3c4cffbef29ab5f42021484d92517f921a1380faacc89c50c1f89d",
+      "version": "0.15.1"
+    },
+    "s390x-linux": {
+      "file": "zig-s390x-linux-0.15.1.tar.xz",
+      "sha256": "bcd13e5c88cf2d0da7100a48572195560069a94402c9bec3b316398204aa27e2",
+      "version": "0.15.1"
     }
   },
   "0.15.2": {
@@ -37992,6 +38384,26 @@
     "aarch64-windows": {
       "file": "zig-aarch64-windows-0.15.2.zip",
       "sha256": "b926465f8872bf983422257cd9ec248bb2b270996fbe8d57872cca13b56fc370",
+      "version": "0.15.2"
+    },
+    "riscv64-linux": {
+      "file": "zig-riscv64-linux-0.15.2.tar.xz",
+      "sha256": "493512bdca485be3c6a9b0f69dcb4cbe4587f3af8e1be282fdd827108ba39930",
+      "version": "0.15.2"
+    },
+    "powerpc64le-linux": {
+      "file": "zig-powerpc64le-linux-0.15.2.tar.xz",
+      "sha256": "e182c5f8d30fc7f97d17d2ffef1488826aa3afaa51e5f0dbe14c597a98b45778",
+      "version": "0.15.2"
+    },
+    "loongarch64-linux": {
+      "file": "zig-loongarch64-linux-0.15.2.tar.xz",
+      "sha256": "95d6a03e0415dbe30ae9c00d58b5446fd681ebf3d4044a8b707e1784c8074a61",
+      "version": "0.15.2"
+    },
+    "s390x-linux": {
+      "file": "zig-s390x-linux-0.15.2.tar.xz",
+      "sha256": "cd4b295f43b1b7ca3d603368caea82dbd00fce6691affb7527e607c0b6eafe8e",
       "version": "0.15.2"
     }
   }
