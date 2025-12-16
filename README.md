@@ -65,26 +65,9 @@ $ nix shell 'github:bandithedoge/zig-overlay#zls-latest'
 $ nix shell 'github:bandithedoge/zig-overlay#zls-master'
 # open a shell with ZLS for a specific Zig version
 $ nix shell 'github:bandithedoge/zig-overlay#master.zls'
-```
 
-### Compiler Development
-
-This flake outputs a template that makes it easy to work on the Zig
-compiler itself. If you're looking to contribute to the Zig compiler,
-here are the easy steps to setup a working development environment:
-
-```sh
-# clone zig and go into that directory
-$ git clone https://github.com/ziglang/zig.git
-$ cd zig
-# setup the template
-$ nix flake init -t 'github:bandithedoge/zig-overlay#compiler-dev'
-# Two options:
-# (1) start a shell, this forces bash
-$ nix develop
-# (2) If you have direnv installed, you can start the shell environment
-# in your active shell (fish, zsh, etc.):
-$ direnv allow
+# create a template flake
+$ nix flake init -t 'github:bandithedoge/zig-overlay'
 ```
 
 ## FAQ

@@ -59,14 +59,9 @@
         zigpkgs = self.packages.${prev.system};
       };
 
-      # Templates for use with nix flake init
-      templates.compiler-dev = {
-        path = ./templates/compiler-dev;
-        description = "A development environment for Zig compiler development.";
-      };
-
-      templates.init = {
-        path = ./templates/init;
+      # Template for use with nix flake init
+      templates.default = {
+        path = ./template;
         description = "A basic, empty development environment.";
       };
     };
