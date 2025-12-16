@@ -37,7 +37,7 @@
         builtins.mapAttrs (_: pkg: {
           type = "app";
           program = pkg + "/bin/zig";
-        }) self.packages.${pkgs.system}
+        }) self.packages.${pkgs.stdenv.hostPlatform.system}
       );
 
       # nix fmt
@@ -56,7 +56,7 @@
       # Overlay that can be imported so you can access the packages
       # using zigpkgs.master or whatever you'd like.
       overlays.default = final: prev: {
-        zigpkgs = self.packages.${prev.system};
+        zigpkgs = self.packages.${prev.stdenv.hostPlatform.system};
       };
 
       # Template for use with nix flake init
