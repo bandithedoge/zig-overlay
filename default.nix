@@ -9,7 +9,7 @@ let
   urlsForFile =
     file:
     let
-      # This is a list of known Zig nightly mirrors used by https://github.com/mlugg/setup-zig.
+      # This is a list of known Zig nightly mirrors from https://ziglang.org/download/community-mirrors.txt
       # File hashes are exactly the same so `fetchurl` can try them in order.
       mirrors = builtins.filter (item: builtins.isString item && builtins.stringLength item > 0) (
         builtins.split "\n" (builtins.readFile ./mirrors.txt)
@@ -32,14 +32,16 @@ let
       inherit version;
 
       src = pkgs.fetchurl {
-        sha256 = if (sha256 == null) then "" else sha256;
-        urls = urlsForFile (
-          if file != null then
-            file
-          # Backwards compatibility with old sources.json
-          else
-            (lib.removePrefix "https://ziglang.org/builds/" url)
-        );
+        inherit sha256;
+        urls =
+          pkgs.lib.optional (url != null) url
+          ++ urlsForFile (
+            if file != null then
+              file
+            # Backwards compatibility with old sources.json
+            else
+              (lib.removePrefix "https://ziglang.org/builds/" url)
+          );
       };
 
       dontConfigure = true;

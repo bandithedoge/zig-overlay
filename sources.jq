@@ -22,6 +22,7 @@ def toentry(vsn; x):
     select(.key as $key | any($targets[]; . == $key)) | {
       (todarwin(.key)): {
         "file": filename(.value.tarball),
+        "url": .value.tarball,
         "sha256": .value.shasum,
         "version": $version,
       }
