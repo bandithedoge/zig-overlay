@@ -57,16 +57,7 @@ let
       '';
 
       passthru =
-        (import "${pkgs.path}/pkgs/development/compilers/zig/passthru.nix" {
-          inherit lib;
-          inherit (pkgs)
-            stdenv
-            callPackage
-            wrapCCWith
-            wrapBintoolsWith
-            overrideCC
-            targetPackages
-            ;
+        (pkgs.callPackage "${pkgs.path}/pkgs/development/compilers/zig/passthru.nix" {
           zig = finalAttrs.finalPackage;
         })
         // {
