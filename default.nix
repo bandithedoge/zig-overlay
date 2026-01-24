@@ -73,6 +73,8 @@ let
             zlsPackages.${"zls-" + zlsVersion};
         };
 
+      setupHook = "${pkgs.path}/pkgs/development/compilers/zig/setup-hook.sh";
+
       meta = with lib; {
         description = "General-purpose programming language and toolchain for maintaining robust, optimal, and reusable software";
         homepage = "https://ziglang.org/";
