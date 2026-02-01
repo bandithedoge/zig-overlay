@@ -46,7 +46,6 @@ let
 
       dontConfigure = true;
       dontBuild = true;
-      dontFixup = true;
 
       installPhase = ''
         mkdir -p $out/{doc,bin,lib}
@@ -73,7 +72,19 @@ let
             zlsPackages.${"zls-" + zlsVersion};
         };
 
-      setupHook = /. + pkgs.path + "/pkgs/development/compilers/zig/setup-hook.sh";
+      env = {
+        # https://github.com/NixOS/nixpkgs/blob/nixos-unstable/pkgs/development/compilers/zig/generic.nix
+        zig_default_cpu_flag = "-Dcpu=baseline";
+        zig_default_optimize_flag =
+          if lib.versionAtLeast finalAttrs.version "0.12" then
+            "--release=safe"
+          else if lib.versionAtLeast finalAttrs.version "0.11" then
+            "-Doptimize=ReleaseSafe"
+          else
+            "-Drelease-safe=true";
+      };
+
+      setupHook = pkgs.path + "/pkgs/development/compilers/zig/setup-hook.sh";
 
       meta = with lib; {
         description = "General-purpose programming language and toolchain for maintaining robust, optimal, and reusable software";
