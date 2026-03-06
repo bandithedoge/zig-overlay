@@ -28997,259 +28997,259 @@
     }
   },
   "0.16.0-dev.2670+56253d9e3": {
-    "version": "0.16.0-dev.247+d2e47150",
-    "date": "2026-03-03",
+    "version": "0.16.0-dev.248+1f8dd955",
+    "date": "2026-03-06",
     "aarch64-linux": {
-      "tarball": "https://builds.zigtools.org/zls-aarch64-linux-0.16.0-dev.247+d2e47150.tar.xz",
-      "shasum": "dfebe6ee771ff03ce94f89782756b3449b578720bc349c2630e0d82410e1a58f",
-      "size": "3828176"
+      "tarball": "https://builds.zigtools.org/zls-aarch64-linux-0.16.0-dev.248+1f8dd955.tar.xz",
+      "shasum": "0ddaae790aa588a447df06609b2db1bf7ffc2ee18bfc33067a2cdfc8947ad30e",
+      "size": "3828796"
     },
     "aarch64-macos": {
-      "tarball": "https://builds.zigtools.org/zls-aarch64-macos-0.16.0-dev.247+d2e47150.tar.xz",
-      "shasum": "5be3bd6150ddcfa9b7eb7acba00053d6d6267f6a56152724b8b385682d7797ed",
-      "size": "1074576"
+      "tarball": "https://builds.zigtools.org/zls-aarch64-macos-0.16.0-dev.248+1f8dd955.tar.xz",
+      "shasum": "876bfa87de58f45dfc7361721c71c6d80351a24a0effc73a285a3a2a762b8e61",
+      "size": "1074364"
     },
     "aarch64-windows": {
-      "tarball": "https://builds.zigtools.org/zls-aarch64-windows-0.16.0-dev.247+d2e47150.zip",
-      "shasum": "1cca9ce851d6a3c2dcc7a1199b8f730ae29ab836a19d8db2f2e24f6d2d22dbdf",
-      "size": "4484616"
+      "tarball": "https://builds.zigtools.org/zls-aarch64-windows-0.16.0-dev.248+1f8dd955.zip",
+      "shasum": "c8d9a9bbc8687a7a482314396295e87d1aaa79b8f1d709cedc8ca3e13af6104b",
+      "size": "4485490"
     },
     "arm-linux": {
-      "tarball": "https://builds.zigtools.org/zls-arm-linux-0.16.0-dev.247+d2e47150.tar.xz",
-      "shasum": "4fd52ab4c02f865294fd3299a50a7503145b1f17412b38553664ec53d1d7e47f",
-      "size": "3918908"
+      "tarball": "https://builds.zigtools.org/zls-arm-linux-0.16.0-dev.248+1f8dd955.tar.xz",
+      "shasum": "be3859df55dae3da2435b0698218d528aaa80c4235449f4ba2167e0817907953",
+      "size": "3919380"
     },
     "loongarch64-linux": {
-      "tarball": "https://builds.zigtools.org/zls-loongarch64-linux-0.16.0-dev.247+d2e47150.tar.xz",
-      "shasum": "647277e8198fdedae6e9b0a9cc12d74dafe65278d3705564fa1a576bc475c035",
-      "size": "3728232"
+      "tarball": "https://builds.zigtools.org/zls-loongarch64-linux-0.16.0-dev.248+1f8dd955.tar.xz",
+      "shasum": "f09543e96efafc7d9bf1a893467fe7ed92dd1d73ffb83f03bda2c41e4f05e775",
+      "size": "3728104"
     },
     "riscv64-linux": {
-      "tarball": "https://builds.zigtools.org/zls-riscv64-linux-0.16.0-dev.247+d2e47150.tar.xz",
-      "shasum": "ff4c1d3cfd71f529528ad536b1c31557ba9268c063b923cafa8d745bab2f3bfa",
-      "size": "4844084"
+      "tarball": "https://builds.zigtools.org/zls-riscv64-linux-0.16.0-dev.248+1f8dd955.tar.xz",
+      "shasum": "aa73b54752935c8c12213fa0663fa981ed0e0b3093050b935d22bac391135433",
+      "size": "4846016"
     },
     "x86-linux": {
-      "tarball": "https://builds.zigtools.org/zls-x86-linux-0.16.0-dev.247+d2e47150.tar.xz",
-      "shasum": "1befb38e976a23ac97928970664222c104f42b2c3f00482e65d1658209d680c2",
-      "size": "4054120"
+      "tarball": "https://builds.zigtools.org/zls-x86-linux-0.16.0-dev.248+1f8dd955.tar.xz",
+      "shasum": "5bff8bb6ab311a0990e380b271875b016ce2620e40808fe992eefc320b693061",
+      "size": "4054720"
     },
     "x86-windows": {
-      "tarball": "https://builds.zigtools.org/zls-x86-windows-0.16.0-dev.247+d2e47150.zip",
-      "shasum": "fea13902cc676e89c34a3fc0f7e6baa5b384d65b4e02d3bef30c75503da61b3f",
-      "size": "4838931"
+      "tarball": "https://builds.zigtools.org/zls-x86-windows-0.16.0-dev.248+1f8dd955.zip",
+      "shasum": "c92070d264a1870dc1f16944e8416218091f8e9d654aefcfe496b9140ccff835",
+      "size": "4838908"
     },
     "x86_64-linux": {
-      "tarball": "https://builds.zigtools.org/zls-x86_64-linux-0.16.0-dev.247+d2e47150.tar.xz",
-      "shasum": "fa2e3f1a9076e491cae96132231f40413c3bdec685700f87f40e0d2d77db0505",
-      "size": "4012084"
+      "tarball": "https://builds.zigtools.org/zls-x86_64-linux-0.16.0-dev.248+1f8dd955.tar.xz",
+      "shasum": "535f6c7eb720df479ab48d8ced511013b47e480974050216ed2d1a2ae58f3083",
+      "size": "4012284"
     },
     "x86_64-macos": {
-      "tarball": "https://builds.zigtools.org/zls-x86_64-macos-0.16.0-dev.247+d2e47150.tar.xz",
-      "shasum": "e88dc355a1dfc9119a876b3766122ee1f709df82681fb294be2c13fa356c0bc7",
-      "size": "1251376"
+      "tarball": "https://builds.zigtools.org/zls-x86_64-macos-0.16.0-dev.248+1f8dd955.tar.xz",
+      "shasum": "c834c58a325a2b4e73ae13901ab7431269c362abfc51ecfafa20f2def48b3033",
+      "size": "1251976"
     },
     "x86_64-windows": {
-      "tarball": "https://builds.zigtools.org/zls-x86_64-windows-0.16.0-dev.247+d2e47150.zip",
-      "shasum": "a09bb4f14a941ef3649e2803f14171f896bdce5957f786a1d088e7dcc07dcf94",
-      "size": "4730711"
+      "tarball": "https://builds.zigtools.org/zls-x86_64-windows-0.16.0-dev.248+1f8dd955.zip",
+      "shasum": "1b309d54ed6fff50bdec201b444034cf4a12b64e6a2b35a40d4f95ca70709580",
+      "size": "4730980"
     },
     "wasm32-wasi": {
-      "tarball": "https://builds.zigtools.org/zls-wasm32-wasi-0.16.0-dev.247+d2e47150.tar.xz",
-      "shasum": "577e01ab5089b7c29183fd20d5f65881dfa9965485e5673b2b4179d2cc818d88",
-      "size": "2487648"
+      "tarball": "https://builds.zigtools.org/zls-wasm32-wasi-0.16.0-dev.248+1f8dd955.tar.xz",
+      "shasum": "36a225edddda42676289b803fbff89803c5c4bda70513f8ccb5b9b300634b00a",
+      "size": "2487360"
     }
   },
   "0.16.0-dev.2676+4e2cec265": {
-    "version": "0.16.0-dev.247+d2e47150",
-    "date": "2026-03-03",
+    "version": "0.16.0-dev.248+1f8dd955",
+    "date": "2026-03-06",
     "aarch64-linux": {
-      "tarball": "https://builds.zigtools.org/zls-aarch64-linux-0.16.0-dev.247+d2e47150.tar.xz",
-      "shasum": "dfebe6ee771ff03ce94f89782756b3449b578720bc349c2630e0d82410e1a58f",
-      "size": "3828176"
+      "tarball": "https://builds.zigtools.org/zls-aarch64-linux-0.16.0-dev.248+1f8dd955.tar.xz",
+      "shasum": "0ddaae790aa588a447df06609b2db1bf7ffc2ee18bfc33067a2cdfc8947ad30e",
+      "size": "3828796"
     },
     "aarch64-macos": {
-      "tarball": "https://builds.zigtools.org/zls-aarch64-macos-0.16.0-dev.247+d2e47150.tar.xz",
-      "shasum": "5be3bd6150ddcfa9b7eb7acba00053d6d6267f6a56152724b8b385682d7797ed",
-      "size": "1074576"
+      "tarball": "https://builds.zigtools.org/zls-aarch64-macos-0.16.0-dev.248+1f8dd955.tar.xz",
+      "shasum": "876bfa87de58f45dfc7361721c71c6d80351a24a0effc73a285a3a2a762b8e61",
+      "size": "1074364"
     },
     "aarch64-windows": {
-      "tarball": "https://builds.zigtools.org/zls-aarch64-windows-0.16.0-dev.247+d2e47150.zip",
-      "shasum": "1cca9ce851d6a3c2dcc7a1199b8f730ae29ab836a19d8db2f2e24f6d2d22dbdf",
-      "size": "4484616"
+      "tarball": "https://builds.zigtools.org/zls-aarch64-windows-0.16.0-dev.248+1f8dd955.zip",
+      "shasum": "c8d9a9bbc8687a7a482314396295e87d1aaa79b8f1d709cedc8ca3e13af6104b",
+      "size": "4485490"
     },
     "arm-linux": {
-      "tarball": "https://builds.zigtools.org/zls-arm-linux-0.16.0-dev.247+d2e47150.tar.xz",
-      "shasum": "4fd52ab4c02f865294fd3299a50a7503145b1f17412b38553664ec53d1d7e47f",
-      "size": "3918908"
+      "tarball": "https://builds.zigtools.org/zls-arm-linux-0.16.0-dev.248+1f8dd955.tar.xz",
+      "shasum": "be3859df55dae3da2435b0698218d528aaa80c4235449f4ba2167e0817907953",
+      "size": "3919380"
     },
     "loongarch64-linux": {
-      "tarball": "https://builds.zigtools.org/zls-loongarch64-linux-0.16.0-dev.247+d2e47150.tar.xz",
-      "shasum": "647277e8198fdedae6e9b0a9cc12d74dafe65278d3705564fa1a576bc475c035",
-      "size": "3728232"
+      "tarball": "https://builds.zigtools.org/zls-loongarch64-linux-0.16.0-dev.248+1f8dd955.tar.xz",
+      "shasum": "f09543e96efafc7d9bf1a893467fe7ed92dd1d73ffb83f03bda2c41e4f05e775",
+      "size": "3728104"
     },
     "riscv64-linux": {
-      "tarball": "https://builds.zigtools.org/zls-riscv64-linux-0.16.0-dev.247+d2e47150.tar.xz",
-      "shasum": "ff4c1d3cfd71f529528ad536b1c31557ba9268c063b923cafa8d745bab2f3bfa",
-      "size": "4844084"
+      "tarball": "https://builds.zigtools.org/zls-riscv64-linux-0.16.0-dev.248+1f8dd955.tar.xz",
+      "shasum": "aa73b54752935c8c12213fa0663fa981ed0e0b3093050b935d22bac391135433",
+      "size": "4846016"
     },
     "x86-linux": {
-      "tarball": "https://builds.zigtools.org/zls-x86-linux-0.16.0-dev.247+d2e47150.tar.xz",
-      "shasum": "1befb38e976a23ac97928970664222c104f42b2c3f00482e65d1658209d680c2",
-      "size": "4054120"
+      "tarball": "https://builds.zigtools.org/zls-x86-linux-0.16.0-dev.248+1f8dd955.tar.xz",
+      "shasum": "5bff8bb6ab311a0990e380b271875b016ce2620e40808fe992eefc320b693061",
+      "size": "4054720"
     },
     "x86-windows": {
-      "tarball": "https://builds.zigtools.org/zls-x86-windows-0.16.0-dev.247+d2e47150.zip",
-      "shasum": "fea13902cc676e89c34a3fc0f7e6baa5b384d65b4e02d3bef30c75503da61b3f",
-      "size": "4838931"
+      "tarball": "https://builds.zigtools.org/zls-x86-windows-0.16.0-dev.248+1f8dd955.zip",
+      "shasum": "c92070d264a1870dc1f16944e8416218091f8e9d654aefcfe496b9140ccff835",
+      "size": "4838908"
     },
     "x86_64-linux": {
-      "tarball": "https://builds.zigtools.org/zls-x86_64-linux-0.16.0-dev.247+d2e47150.tar.xz",
-      "shasum": "fa2e3f1a9076e491cae96132231f40413c3bdec685700f87f40e0d2d77db0505",
-      "size": "4012084"
+      "tarball": "https://builds.zigtools.org/zls-x86_64-linux-0.16.0-dev.248+1f8dd955.tar.xz",
+      "shasum": "535f6c7eb720df479ab48d8ced511013b47e480974050216ed2d1a2ae58f3083",
+      "size": "4012284"
     },
     "x86_64-macos": {
-      "tarball": "https://builds.zigtools.org/zls-x86_64-macos-0.16.0-dev.247+d2e47150.tar.xz",
-      "shasum": "e88dc355a1dfc9119a876b3766122ee1f709df82681fb294be2c13fa356c0bc7",
-      "size": "1251376"
+      "tarball": "https://builds.zigtools.org/zls-x86_64-macos-0.16.0-dev.248+1f8dd955.tar.xz",
+      "shasum": "c834c58a325a2b4e73ae13901ab7431269c362abfc51ecfafa20f2def48b3033",
+      "size": "1251976"
     },
     "x86_64-windows": {
-      "tarball": "https://builds.zigtools.org/zls-x86_64-windows-0.16.0-dev.247+d2e47150.zip",
-      "shasum": "a09bb4f14a941ef3649e2803f14171f896bdce5957f786a1d088e7dcc07dcf94",
-      "size": "4730711"
+      "tarball": "https://builds.zigtools.org/zls-x86_64-windows-0.16.0-dev.248+1f8dd955.zip",
+      "shasum": "1b309d54ed6fff50bdec201b444034cf4a12b64e6a2b35a40d4f95ca70709580",
+      "size": "4730980"
     },
     "wasm32-wasi": {
-      "tarball": "https://builds.zigtools.org/zls-wasm32-wasi-0.16.0-dev.247+d2e47150.tar.xz",
-      "shasum": "577e01ab5089b7c29183fd20d5f65881dfa9965485e5673b2b4179d2cc818d88",
-      "size": "2487648"
+      "tarball": "https://builds.zigtools.org/zls-wasm32-wasi-0.16.0-dev.248+1f8dd955.tar.xz",
+      "shasum": "36a225edddda42676289b803fbff89803c5c4bda70513f8ccb5b9b300634b00a",
+      "size": "2487360"
     }
   },
   "0.16.0-dev.2682+02142a54d": {
-    "version": "0.16.0-dev.247+d2e47150",
-    "date": "2026-03-03",
+    "version": "0.16.0-dev.248+1f8dd955",
+    "date": "2026-03-06",
     "aarch64-linux": {
-      "tarball": "https://builds.zigtools.org/zls-aarch64-linux-0.16.0-dev.247+d2e47150.tar.xz",
-      "shasum": "dfebe6ee771ff03ce94f89782756b3449b578720bc349c2630e0d82410e1a58f",
-      "size": "3828176"
+      "tarball": "https://builds.zigtools.org/zls-aarch64-linux-0.16.0-dev.248+1f8dd955.tar.xz",
+      "shasum": "0ddaae790aa588a447df06609b2db1bf7ffc2ee18bfc33067a2cdfc8947ad30e",
+      "size": "3828796"
     },
     "aarch64-macos": {
-      "tarball": "https://builds.zigtools.org/zls-aarch64-macos-0.16.0-dev.247+d2e47150.tar.xz",
-      "shasum": "5be3bd6150ddcfa9b7eb7acba00053d6d6267f6a56152724b8b385682d7797ed",
-      "size": "1074576"
+      "tarball": "https://builds.zigtools.org/zls-aarch64-macos-0.16.0-dev.248+1f8dd955.tar.xz",
+      "shasum": "876bfa87de58f45dfc7361721c71c6d80351a24a0effc73a285a3a2a762b8e61",
+      "size": "1074364"
     },
     "aarch64-windows": {
-      "tarball": "https://builds.zigtools.org/zls-aarch64-windows-0.16.0-dev.247+d2e47150.zip",
-      "shasum": "1cca9ce851d6a3c2dcc7a1199b8f730ae29ab836a19d8db2f2e24f6d2d22dbdf",
-      "size": "4484616"
+      "tarball": "https://builds.zigtools.org/zls-aarch64-windows-0.16.0-dev.248+1f8dd955.zip",
+      "shasum": "c8d9a9bbc8687a7a482314396295e87d1aaa79b8f1d709cedc8ca3e13af6104b",
+      "size": "4485490"
     },
     "arm-linux": {
-      "tarball": "https://builds.zigtools.org/zls-arm-linux-0.16.0-dev.247+d2e47150.tar.xz",
-      "shasum": "4fd52ab4c02f865294fd3299a50a7503145b1f17412b38553664ec53d1d7e47f",
-      "size": "3918908"
+      "tarball": "https://builds.zigtools.org/zls-arm-linux-0.16.0-dev.248+1f8dd955.tar.xz",
+      "shasum": "be3859df55dae3da2435b0698218d528aaa80c4235449f4ba2167e0817907953",
+      "size": "3919380"
     },
     "loongarch64-linux": {
-      "tarball": "https://builds.zigtools.org/zls-loongarch64-linux-0.16.0-dev.247+d2e47150.tar.xz",
-      "shasum": "647277e8198fdedae6e9b0a9cc12d74dafe65278d3705564fa1a576bc475c035",
-      "size": "3728232"
+      "tarball": "https://builds.zigtools.org/zls-loongarch64-linux-0.16.0-dev.248+1f8dd955.tar.xz",
+      "shasum": "f09543e96efafc7d9bf1a893467fe7ed92dd1d73ffb83f03bda2c41e4f05e775",
+      "size": "3728104"
     },
     "riscv64-linux": {
-      "tarball": "https://builds.zigtools.org/zls-riscv64-linux-0.16.0-dev.247+d2e47150.tar.xz",
-      "shasum": "ff4c1d3cfd71f529528ad536b1c31557ba9268c063b923cafa8d745bab2f3bfa",
-      "size": "4844084"
+      "tarball": "https://builds.zigtools.org/zls-riscv64-linux-0.16.0-dev.248+1f8dd955.tar.xz",
+      "shasum": "aa73b54752935c8c12213fa0663fa981ed0e0b3093050b935d22bac391135433",
+      "size": "4846016"
     },
     "x86-linux": {
-      "tarball": "https://builds.zigtools.org/zls-x86-linux-0.16.0-dev.247+d2e47150.tar.xz",
-      "shasum": "1befb38e976a23ac97928970664222c104f42b2c3f00482e65d1658209d680c2",
-      "size": "4054120"
+      "tarball": "https://builds.zigtools.org/zls-x86-linux-0.16.0-dev.248+1f8dd955.tar.xz",
+      "shasum": "5bff8bb6ab311a0990e380b271875b016ce2620e40808fe992eefc320b693061",
+      "size": "4054720"
     },
     "x86-windows": {
-      "tarball": "https://builds.zigtools.org/zls-x86-windows-0.16.0-dev.247+d2e47150.zip",
-      "shasum": "fea13902cc676e89c34a3fc0f7e6baa5b384d65b4e02d3bef30c75503da61b3f",
-      "size": "4838931"
+      "tarball": "https://builds.zigtools.org/zls-x86-windows-0.16.0-dev.248+1f8dd955.zip",
+      "shasum": "c92070d264a1870dc1f16944e8416218091f8e9d654aefcfe496b9140ccff835",
+      "size": "4838908"
     },
     "x86_64-linux": {
-      "tarball": "https://builds.zigtools.org/zls-x86_64-linux-0.16.0-dev.247+d2e47150.tar.xz",
-      "shasum": "fa2e3f1a9076e491cae96132231f40413c3bdec685700f87f40e0d2d77db0505",
-      "size": "4012084"
+      "tarball": "https://builds.zigtools.org/zls-x86_64-linux-0.16.0-dev.248+1f8dd955.tar.xz",
+      "shasum": "535f6c7eb720df479ab48d8ced511013b47e480974050216ed2d1a2ae58f3083",
+      "size": "4012284"
     },
     "x86_64-macos": {
-      "tarball": "https://builds.zigtools.org/zls-x86_64-macos-0.16.0-dev.247+d2e47150.tar.xz",
-      "shasum": "e88dc355a1dfc9119a876b3766122ee1f709df82681fb294be2c13fa356c0bc7",
-      "size": "1251376"
+      "tarball": "https://builds.zigtools.org/zls-x86_64-macos-0.16.0-dev.248+1f8dd955.tar.xz",
+      "shasum": "c834c58a325a2b4e73ae13901ab7431269c362abfc51ecfafa20f2def48b3033",
+      "size": "1251976"
     },
     "x86_64-windows": {
-      "tarball": "https://builds.zigtools.org/zls-x86_64-windows-0.16.0-dev.247+d2e47150.zip",
-      "shasum": "a09bb4f14a941ef3649e2803f14171f896bdce5957f786a1d088e7dcc07dcf94",
-      "size": "4730711"
+      "tarball": "https://builds.zigtools.org/zls-x86_64-windows-0.16.0-dev.248+1f8dd955.zip",
+      "shasum": "1b309d54ed6fff50bdec201b444034cf4a12b64e6a2b35a40d4f95ca70709580",
+      "size": "4730980"
     },
     "wasm32-wasi": {
-      "tarball": "https://builds.zigtools.org/zls-wasm32-wasi-0.16.0-dev.247+d2e47150.tar.xz",
-      "shasum": "577e01ab5089b7c29183fd20d5f65881dfa9965485e5673b2b4179d2cc818d88",
-      "size": "2487648"
+      "tarball": "https://builds.zigtools.org/zls-wasm32-wasi-0.16.0-dev.248+1f8dd955.tar.xz",
+      "shasum": "36a225edddda42676289b803fbff89803c5c4bda70513f8ccb5b9b300634b00a",
+      "size": "2487360"
     }
   },
   "0.16.0-dev.2694+74f361a5c": {
-    "version": "0.16.0-dev.247+d2e47150",
-    "date": "2026-03-03",
+    "version": "0.16.0-dev.248+1f8dd955",
+    "date": "2026-03-06",
     "aarch64-linux": {
-      "tarball": "https://builds.zigtools.org/zls-aarch64-linux-0.16.0-dev.247+d2e47150.tar.xz",
-      "shasum": "dfebe6ee771ff03ce94f89782756b3449b578720bc349c2630e0d82410e1a58f",
-      "size": "3828176"
+      "tarball": "https://builds.zigtools.org/zls-aarch64-linux-0.16.0-dev.248+1f8dd955.tar.xz",
+      "shasum": "0ddaae790aa588a447df06609b2db1bf7ffc2ee18bfc33067a2cdfc8947ad30e",
+      "size": "3828796"
     },
     "aarch64-macos": {
-      "tarball": "https://builds.zigtools.org/zls-aarch64-macos-0.16.0-dev.247+d2e47150.tar.xz",
-      "shasum": "5be3bd6150ddcfa9b7eb7acba00053d6d6267f6a56152724b8b385682d7797ed",
-      "size": "1074576"
+      "tarball": "https://builds.zigtools.org/zls-aarch64-macos-0.16.0-dev.248+1f8dd955.tar.xz",
+      "shasum": "876bfa87de58f45dfc7361721c71c6d80351a24a0effc73a285a3a2a762b8e61",
+      "size": "1074364"
     },
     "aarch64-windows": {
-      "tarball": "https://builds.zigtools.org/zls-aarch64-windows-0.16.0-dev.247+d2e47150.zip",
-      "shasum": "1cca9ce851d6a3c2dcc7a1199b8f730ae29ab836a19d8db2f2e24f6d2d22dbdf",
-      "size": "4484616"
+      "tarball": "https://builds.zigtools.org/zls-aarch64-windows-0.16.0-dev.248+1f8dd955.zip",
+      "shasum": "c8d9a9bbc8687a7a482314396295e87d1aaa79b8f1d709cedc8ca3e13af6104b",
+      "size": "4485490"
     },
     "arm-linux": {
-      "tarball": "https://builds.zigtools.org/zls-arm-linux-0.16.0-dev.247+d2e47150.tar.xz",
-      "shasum": "4fd52ab4c02f865294fd3299a50a7503145b1f17412b38553664ec53d1d7e47f",
-      "size": "3918908"
+      "tarball": "https://builds.zigtools.org/zls-arm-linux-0.16.0-dev.248+1f8dd955.tar.xz",
+      "shasum": "be3859df55dae3da2435b0698218d528aaa80c4235449f4ba2167e0817907953",
+      "size": "3919380"
     },
     "loongarch64-linux": {
-      "tarball": "https://builds.zigtools.org/zls-loongarch64-linux-0.16.0-dev.247+d2e47150.tar.xz",
-      "shasum": "647277e8198fdedae6e9b0a9cc12d74dafe65278d3705564fa1a576bc475c035",
-      "size": "3728232"
+      "tarball": "https://builds.zigtools.org/zls-loongarch64-linux-0.16.0-dev.248+1f8dd955.tar.xz",
+      "shasum": "f09543e96efafc7d9bf1a893467fe7ed92dd1d73ffb83f03bda2c41e4f05e775",
+      "size": "3728104"
     },
     "riscv64-linux": {
-      "tarball": "https://builds.zigtools.org/zls-riscv64-linux-0.16.0-dev.247+d2e47150.tar.xz",
-      "shasum": "ff4c1d3cfd71f529528ad536b1c31557ba9268c063b923cafa8d745bab2f3bfa",
-      "size": "4844084"
+      "tarball": "https://builds.zigtools.org/zls-riscv64-linux-0.16.0-dev.248+1f8dd955.tar.xz",
+      "shasum": "aa73b54752935c8c12213fa0663fa981ed0e0b3093050b935d22bac391135433",
+      "size": "4846016"
     },
     "x86-linux": {
-      "tarball": "https://builds.zigtools.org/zls-x86-linux-0.16.0-dev.247+d2e47150.tar.xz",
-      "shasum": "1befb38e976a23ac97928970664222c104f42b2c3f00482e65d1658209d680c2",
-      "size": "4054120"
+      "tarball": "https://builds.zigtools.org/zls-x86-linux-0.16.0-dev.248+1f8dd955.tar.xz",
+      "shasum": "5bff8bb6ab311a0990e380b271875b016ce2620e40808fe992eefc320b693061",
+      "size": "4054720"
     },
     "x86-windows": {
-      "tarball": "https://builds.zigtools.org/zls-x86-windows-0.16.0-dev.247+d2e47150.zip",
-      "shasum": "fea13902cc676e89c34a3fc0f7e6baa5b384d65b4e02d3bef30c75503da61b3f",
-      "size": "4838931"
+      "tarball": "https://builds.zigtools.org/zls-x86-windows-0.16.0-dev.248+1f8dd955.zip",
+      "shasum": "c92070d264a1870dc1f16944e8416218091f8e9d654aefcfe496b9140ccff835",
+      "size": "4838908"
     },
     "x86_64-linux": {
-      "tarball": "https://builds.zigtools.org/zls-x86_64-linux-0.16.0-dev.247+d2e47150.tar.xz",
-      "shasum": "fa2e3f1a9076e491cae96132231f40413c3bdec685700f87f40e0d2d77db0505",
-      "size": "4012084"
+      "tarball": "https://builds.zigtools.org/zls-x86_64-linux-0.16.0-dev.248+1f8dd955.tar.xz",
+      "shasum": "535f6c7eb720df479ab48d8ced511013b47e480974050216ed2d1a2ae58f3083",
+      "size": "4012284"
     },
     "x86_64-macos": {
-      "tarball": "https://builds.zigtools.org/zls-x86_64-macos-0.16.0-dev.247+d2e47150.tar.xz",
-      "shasum": "e88dc355a1dfc9119a876b3766122ee1f709df82681fb294be2c13fa356c0bc7",
-      "size": "1251376"
+      "tarball": "https://builds.zigtools.org/zls-x86_64-macos-0.16.0-dev.248+1f8dd955.tar.xz",
+      "shasum": "c834c58a325a2b4e73ae13901ab7431269c362abfc51ecfafa20f2def48b3033",
+      "size": "1251976"
     },
     "x86_64-windows": {
-      "tarball": "https://builds.zigtools.org/zls-x86_64-windows-0.16.0-dev.247+d2e47150.zip",
-      "shasum": "a09bb4f14a941ef3649e2803f14171f896bdce5957f786a1d088e7dcc07dcf94",
-      "size": "4730711"
+      "tarball": "https://builds.zigtools.org/zls-x86_64-windows-0.16.0-dev.248+1f8dd955.zip",
+      "shasum": "1b309d54ed6fff50bdec201b444034cf4a12b64e6a2b35a40d4f95ca70709580",
+      "size": "4730980"
     },
     "wasm32-wasi": {
-      "tarball": "https://builds.zigtools.org/zls-wasm32-wasi-0.16.0-dev.247+d2e47150.tar.xz",
-      "shasum": "577e01ab5089b7c29183fd20d5f65881dfa9965485e5673b2b4179d2cc818d88",
-      "size": "2487648"
+      "tarball": "https://builds.zigtools.org/zls-wasm32-wasi-0.16.0-dev.248+1f8dd955.tar.xz",
+      "shasum": "36a225edddda42676289b803fbff89803c5c4bda70513f8ccb5b9b300634b00a",
+      "size": "2487360"
     }
   },
   "0.7.1": {
