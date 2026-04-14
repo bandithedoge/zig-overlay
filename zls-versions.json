@@ -31528,5 +31528,9 @@
       "shasum": "0e95b1fab355f4931f16ab76a65515bde8f459114bc311cffb7944da8ce91be2",
       "size": "4169564"
     }
+  },
+  "0.16.0": {
+    "code": 3,
+    "message": "ZLS 0.16 has not been released yet"
   }
 }
