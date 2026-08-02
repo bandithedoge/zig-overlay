@@ -45292,6 +45292,62 @@
         "sha256": "78c6dedbcb2a08589b260a2eb0b84c85b26b034ae0d9d72aa75a3f5bad84f1a1",
         "version": "0.17.0-dev.1509+bb296ab9b"
       }
+    },
+    "2026-07-31": {
+      "x86_64-darwin": {
+        "file": "zig-x86_64-macos-0.17.0-dev.1516+8a4b5424d.tar.xz",
+        "url": "https://ziglang.org/builds/zig-x86_64-macos-0.17.0-dev.1516+8a4b5424d.tar.xz",
+        "sha256": "0d637250297833234c44e66dca71455cae774659a9537aad6ccabbdab75b6571",
+        "version": "0.17.0-dev.1516+8a4b5424d"
+      },
+      "aarch64-darwin": {
+        "file": "zig-aarch64-macos-0.17.0-dev.1516+8a4b5424d.tar.xz",
+        "url": "https://ziglang.org/builds/zig-aarch64-macos-0.17.0-dev.1516+8a4b5424d.tar.xz",
+        "sha256": "7284f4c3dd6efc8881225fcebe45e85f77c999748d73f895e72d3c6fcfb9fe8d",
+        "version": "0.17.0-dev.1516+8a4b5424d"
+      },
+      "x86_64-linux": {
+        "file": "zig-x86_64-linux-0.17.0-dev.1516+8a4b5424d.tar.xz",
+        "url": "https://ziglang.org/builds/zig-x86_64-linux-0.17.0-dev.1516+8a4b5424d.tar.xz",
+        "sha256": "d3cb1d1dbe825ec5cb924b0c399ce0dfbdd27a61ae1097e272bee9f1ca07b311",
+        "version": "0.17.0-dev.1516+8a4b5424d"
+      },
+      "aarch64-linux": {
+        "file": "zig-aarch64-linux-0.17.0-dev.1516+8a4b5424d.tar.xz",
+        "url": "https://ziglang.org/builds/zig-aarch64-linux-0.17.0-dev.1516+8a4b5424d.tar.xz",
+        "sha256": "c490b31c891fe1513389cace5bb607aad50616a0e81d9ee83ed148360bdd24f4",
+        "version": "0.17.0-dev.1516+8a4b5424d"
+      },
+      "armv7a-linux": {
+        "file": "zig-linux-armv7a-0.14.0-dev.2577+271452d22.tar.xz",
+        "url": "https://ziglang.org/builds/zig-linux-armv7a-0.14.0-dev.2577+271452d22.tar.xz",
+        "sha256": "ce4a447027be85577f7a739a09345931572dd69f9dc68d5b53d1cf667bfaf664",
+        "version": "0.17.0-dev.1516+8a4b5424d"
+      },
+      "riscv64-linux": {
+        "file": "zig-riscv64-linux-0.17.0-dev.1516+8a4b5424d.tar.xz",
+        "url": "https://ziglang.org/builds/zig-riscv64-linux-0.17.0-dev.1516+8a4b5424d.tar.xz",
+        "sha256": "e8eb0afdc68a4f07d78c6f5947760a0bf248d6dde37881f0e4ce36cfed288afb",
+        "version": "0.17.0-dev.1516+8a4b5424d"
+      },
+      "powerpc64le-linux": {
+        "file": "zig-powerpc64le-linux-0.17.0-dev.1516+8a4b5424d.tar.xz",
+        "url": "https://ziglang.org/builds/zig-powerpc64le-linux-0.17.0-dev.1516+8a4b5424d.tar.xz",
+        "sha256": "c70b02cd1e45c414ae606e2e70d7acb0a5982c6ace959aa52d4eeedd25b17845",
+        "version": "0.17.0-dev.1516+8a4b5424d"
+      },
+      "loongarch64-linux": {
+        "file": "zig-loongarch64-linux-0.17.0-dev.1516+8a4b5424d.tar.xz",
+        "url": "https://ziglang.org/builds/zig-loongarch64-linux-0.17.0-dev.1516+8a4b5424d.tar.xz",
+        "sha256": "ce2b1a16abc32ef1c70cf8bfe2a3285a2d365db337a2b473cfdc7ccae7ad335d",
+        "version": "0.17.0-dev.1516+8a4b5424d"
+      },
+      "s390x-linux": {
+        "file": "zig-s390x-linux-0.17.0-dev.1516+8a4b5424d.tar.xz",
+        "url": "https://ziglang.org/builds/zig-s390x-linux-0.17.0-dev.1516+8a4b5424d.tar.xz",
+        "sha256": "3ddbe0aeebff8bc978aa4a4c86fdb86c92613bada1757d126b4004521f930942",
+        "version": "0.17.0-dev.1516+8a4b5424d"
+      }
     }
   },
   "0.7.1": {
