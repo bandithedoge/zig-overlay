@@ -39940,6 +39940,10 @@
       "size": "2465272"
     }
   },
+  "0.17.0": {
+    "code": 3,
+    "message": "ZLS 0.17 has not been released yet"
+  },
   "0.7.1": {
     "code": 0,
     "message": "Zig 0.7.1 is not supported by ZLS"
