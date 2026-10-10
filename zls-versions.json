@@ -39964,6 +39964,10 @@
     "code": 1,
     "message": "No builds for the 0.18 release cycle are currently available"
   },
+  "0.18.0-dev.146+35accc06e": {
+    "code": 1,
+    "message": "No builds for the 0.18 release cycle are currently available"
+  },
   "0.7.1": {
     "code": 0,
     "message": "Zig 0.7.1 is not supported by ZLS"
