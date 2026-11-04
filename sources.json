@@ -51604,5 +51604,55 @@
       "sha256": "13905f11989b65566c544d191d4bc5bd5d6f858e303208cf1d2f090e5d91b512",
       "version": "0.17.0"
     }
+  },
+  "0.17.1": {
+    "x86_64-darwin": {
+      "file": "zig-x86_64-macos-0.17.1.tar.xz",
+      "url": "https://ziglang.org/download/0.17.1/zig-x86_64-macos-0.17.1.tar.xz",
+      "sha256": "9af07b20319fbd0c92ee46ad23e81d6a782b1aaea2cfb8dcbff35f1d2c7ddbb7",
+      "version": "0.17.1"
+    },
+    "aarch64-darwin": {
+      "file": "zig-aarch64-macos-0.17.1.tar.xz",
+      "url": "https://ziglang.org/download/0.17.1/zig-aarch64-macos-0.17.1.tar.xz",
+      "sha256": "75f1bc7a1e9852f17ec9a0c1895f767c4ec56d46bc8a834920eece1d0359dd8d",
+      "version": "0.17.1"
+    },
+    "x86_64-linux": {
+      "file": "zig-x86_64-linux-0.17.1.tar.xz",
+      "url": "https://ziglang.org/download/0.17.1/zig-x86_64-linux-0.17.1.tar.xz",
+      "sha256": "3581863e3cbcfd0fce0efc682ce7e9e93da96668a977791d356a26d2a7e9b17a",
+      "version": "0.17.1"
+    },
+    "aarch64-linux": {
+      "file": "zig-aarch64-linux-0.17.1.tar.xz",
+      "url": "https://ziglang.org/download/0.17.1/zig-aarch64-linux-0.17.1.tar.xz",
+      "sha256": "a1546d5646eb184437918d6635ca6b762a0e889eac09cef720ee7a1ed3fe7795",
+      "version": "0.17.1"
+    },
+    "riscv64-linux": {
+      "file": "zig-riscv64-linux-0.17.1.tar.xz",
+      "url": "https://ziglang.org/download/0.17.1/zig-riscv64-linux-0.17.1.tar.xz",
+      "sha256": "b31a3fd8b42b614cb68f93f18aab11c1721336654a9c8dd389ff7bab3a6827dc",
+      "version": "0.17.1"
+    },
+    "powerpc64le-linux": {
+      "file": "zig-powerpc64le-linux-0.17.1.tar.xz",
+      "url": "https://ziglang.org/download/0.17.1/zig-powerpc64le-linux-0.17.1.tar.xz",
+      "sha256": "f06911010b44fa4fdd8e8775669acf499310ff18e209bb392f2eb2428dccc05e",
+      "version": "0.17.1"
+    },
+    "loongarch64-linux": {
+      "file": "zig-loongarch64-linux-0.17.1.tar.xz",
+      "url": "https://ziglang.org/download/0.17.1/zig-loongarch64-linux-0.17.1.tar.xz",
+      "sha256": "cc698ceda768c2bd94eb15dfa53496da94bc432f20ac713b60798b9f319cc228",
+      "version": "0.17.1"
+    },
+    "s390x-linux": {
+      "file": "zig-s390x-linux-0.17.1.tar.xz",
+      "url": "https://ziglang.org/download/0.17.1/zig-s390x-linux-0.17.1.tar.xz",
+      "sha256": "e88c93115bdc18f7f37551945cb55ba041a002d2334fd1d6f7424187bec3dee8",
+      "version": "0.17.1"
+    }
   }
 }
