@@ -42318,6 +42318,70 @@
       "size": "2572056"
     }
   },
+  "0.18.0-dev.1284+2385a0153": {
+    "version": "0.18.0-dev.71+37a0d598",
+    "date": "2026-11-23",
+    "aarch64-linux": {
+      "tarball": "https://builds.zigtools.org/zls-aarch64-linux-0.18.0-dev.71+37a0d598.tar.xz",
+      "shasum": "2a9ae4c549c6139a745a4d1a5c07772a19061f57e9409b0783e72942f1632f8f",
+      "size": "4041472"
+    },
+    "aarch64-macos": {
+      "tarball": "https://builds.zigtools.org/zls-aarch64-macos-0.18.0-dev.71+37a0d598.tar.xz",
+      "shasum": "cafa237596f559a0c6bbf4d8b5932694639820cdee6aebbca71beba075af0c69",
+      "size": "1118164"
+    },
+    "aarch64-windows": {
+      "tarball": "https://builds.zigtools.org/zls-aarch64-windows-0.18.0-dev.71+37a0d598.zip",
+      "shasum": "6ec2746d04d5cb186a17af4a543d3f5d4816698fbaa75968f465333d7589b40a",
+      "size": "4931786"
+    },
+    "arm-linux": {
+      "tarball": "https://builds.zigtools.org/zls-arm-linux-0.18.0-dev.71+37a0d598.tar.xz",
+      "shasum": "de2b3363808359b272114adf83baf269f32b2ebee6c066305fa74118090e8fae",
+      "size": "4170760"
+    },
+    "loongarch64-linux": {
+      "tarball": "https://builds.zigtools.org/zls-loongarch64-linux-0.18.0-dev.71+37a0d598.tar.xz",
+      "shasum": "5df433f8a845c0a6eef4dd2d35c96cff2329c17134bedc78a03458c8c2c72395",
+      "size": "4544372"
+    },
+    "riscv64-linux": {
+      "tarball": "https://builds.zigtools.org/zls-riscv64-linux-0.18.0-dev.71+37a0d598.tar.xz",
+      "shasum": "36cfdea6007359c2840e1fbf20599e8a4093d076cc167867107ea16014479be8",
+      "size": "4813688"
+    },
+    "x86-linux": {
+      "tarball": "https://builds.zigtools.org/zls-x86-linux-0.18.0-dev.71+37a0d598.tar.xz",
+      "shasum": "3aaedcf80d5b33d601c9b2d7d06412ee3cbc3a8322a28586221bac635c2d80c2",
+      "size": "4300304"
+    },
+    "x86-windows": {
+      "tarball": "https://builds.zigtools.org/zls-x86-windows-0.18.0-dev.71+37a0d598.zip",
+      "shasum": "33c374106e4e8436c912424ccb5bfb923ee2d19ed37e0453eef7d24a1c73664a",
+      "size": "5204973"
+    },
+    "x86_64-linux": {
+      "tarball": "https://builds.zigtools.org/zls-x86_64-linux-0.18.0-dev.71+37a0d598.tar.xz",
+      "shasum": "9dd9ab6cddab01769917a72b35277a54ff9e589bbfdf9309cc4ab36d89764e2e",
+      "size": "4356260"
+    },
+    "x86_64-macos": {
+      "tarball": "https://builds.zigtools.org/zls-x86_64-macos-0.18.0-dev.71+37a0d598.tar.xz",
+      "shasum": "7513fd6c572025a032c38b2482850d963232ad20c02fa5de0fd6207cc45fb4ce",
+      "size": "1309420"
+    },
+    "x86_64-windows": {
+      "tarball": "https://builds.zigtools.org/zls-x86_64-windows-0.18.0-dev.71+37a0d598.zip",
+      "shasum": "e3747da3d72f2443d27480c17285c9e046b8b5e2f894df205997e71d3bb3939c",
+      "size": "5202793"
+    },
+    "wasm32-wasi": {
+      "tarball": "https://builds.zigtools.org/zls-wasm32-wasi-0.18.0-dev.71+37a0d598.tar.xz",
+      "shasum": "ec919d636f874dd7447c02b119ab4761069fbd310c20851a03bbdb54d817c84d",
+      "size": "2572056"
+    }
+  },
   "0.7.1": {
     "code": 0,
     "message": "Zig 0.7.1 is not supported by ZLS"
